@@ -42,13 +42,23 @@ function CreateNewContent(props: PROPS) {
     setLoading(true);
     const SelectedPrompt = selectedTemplate?.aiPrompt;
     const FinalAIPrompt = JSON.stringify(formData) + ', ' + SelectedPrompt;
-    const result = await chatSession.sendMessage(FinalAIPrompt);
 
-    setAiOutput(result?.response.text());
-    await SaveInDb(JSON.stringify(formData), selectedTemplate?.slug, result?.response.text());
-    setLoading(false);
+    try {
+      const result = await chatSession.sendMessage(FinalAIPrompt);
+      
+      if (!result?.response.text()) {
+        throw new Error('AI response was blocked due to safety concerns');
+      }
 
-    setUpdateCreditUsage(Date.now());
+      setAiOutput(result.response.text());
+      await SaveInDb(JSON.stringify(formData), selectedTemplate?.slug, result.response.text());
+    } catch (error) {
+      console.error('Error generating AI content:', error);
+      setAiOutput('The generated content was blocked due to safety concerns. Please try again with different input.');
+    } finally {
+      setLoading(false);
+      setUpdateCreditUsage(Date.now());
+    }
   };
 
   const SaveInDb = async (formData: any, slug: any, aiResp: string) => {

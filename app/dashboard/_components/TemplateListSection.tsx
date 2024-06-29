@@ -4,6 +4,7 @@ import TemplateCard from './TemplateCard'
 
 
 export interface TEMPLATE{
+    
     name:string,
     desc:string,
     icon:string,
@@ -42,7 +43,7 @@ function TemplateListSection({userSearchInput}:any) {
     <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 p-10'>
         {templateList.map((item:TEMPLATE)=>(
             // eslint-disable-next-line react/jsx-key
-            <TemplateCard {...item}/>
+            <TemplateCard {...item} key={item.name}/>
         ))}
     </div>
   )

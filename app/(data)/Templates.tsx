@@ -24,6 +24,7 @@ export default  [
         ]
     },
     {
+        
         name: 'Blog Content',
         desc: 'An AI tool that acts as your personal blog post title writer, creating catchy and viral-worthy titles in your chosen language.',
         category: 'blog',
@@ -45,6 +46,7 @@ export default  [
         ]
     },
     {
+        
         name: 'Blog Topic Ideas',
         desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your preferred language.',
         category: 'Blog',
@@ -61,6 +63,7 @@ export default  [
         ]
     },
     {
+
         name: 'Youtube SEO Title',
         desc: 'An AI tool that serves as your personal blog post title writer, creating catchy and viral-worthy titles in your chosen language.',
         category: 'Youtube Tools',
@@ -84,6 +87,7 @@ export default  [
     },
     {
 
+    
         name: 'Youtube Description',
         desc: 'An AI tool that serves as your personal blog post title writer, creating catchy and viral-worthy titles in your chosen language.',
         category: 'Youtube Tool',
@@ -105,6 +109,7 @@ export default  [
         ]
     },
     {
+      
         name: 'Youtube Tags',
         desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
         category: 'Youtube Tool',
@@ -129,6 +134,7 @@ export default  [
     },
 
     {
+        
         name: 'Rewrite Article (Plagiarism Free)',
         desc: 'Use this tool to rewrite existing articles or blog posts, making them plagiarism-free and bypassing AI detectors.',
         icon: 'https://cdn-icons-png.flaticon.com/128/3131/3131607.png',
@@ -145,6 +151,7 @@ export default  [
         ]
     },
     {
+        
         name: 'Text Improver',
         desc: 'This handy tool refines your writing by eliminating errors and redundancies for a clear, readable result. It also provides a comprehensive tone analysis and suggests better word choices.',
         icon: 'https://cdn-icons-png.flaticon.com/128/1686/1686815.png',
@@ -160,6 +167,7 @@ export default  [
         ]
     },
     {
+       
         name: 'Add Emojis to Text',
         desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
         icon: 'https://cdn-icons-png.flaticon.com/128/2584/2584606.png',
@@ -176,6 +184,7 @@ export default  [
         ]
     },
     {
+       
         name: 'Instagram Post Generator',
         desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
         icon: 'https://cdn-icons-png.flaticon.com/128/15713/15713420.png',
@@ -194,6 +203,7 @@ export default  [
         ]
     },
     {
+        
         name: 'Instagram Hash Tag Generator',
         desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
         icon: 'https://cdn-icons-png.flaticon.com/128/7045/7045432.png',
@@ -212,6 +222,7 @@ export default  [
         ]
     },
     {
+        
         name: 'Instagram Post/Reel Idea',
         desc: 'An AI tool that generates new and trending Instagram ideas based on your niche.',
         icon: 'https://cdn-icons-png.flaticon.com/128/1029/1029183.png',
@@ -230,6 +241,7 @@ export default  [
         ]
     },
     {
+        
         name: 'English Grammer Check',
         desc: 'An AI model that corrects your English grammar by analyzing your text.',
         icon:'https://cdn-icons-png.flaticon.com/128/12596/12596700.png',
@@ -248,6 +260,7 @@ export default  [
         ]
     },
     {
+        
         name: 'Write Code',
         desc: 'An AI model that generates programming code in various languages based on specific requirements or inputs.',
         icon:'https://cdn-icons-png.flaticon.com/128/6062/6062646.png',
@@ -266,6 +279,7 @@ export default  [
         ]
     },
     {
+        
         name: 'Explain Code',
         desc: 'An AI model that provides explanations for programming code in any language, making it easier to understand and learn from.',
         icon:'https://cdn-icons-png.flaticon.com/128/8488/8488751.png',
@@ -284,6 +298,7 @@ export default  [
         ]
     },
     {
+        
         name: 'Code Bug Detector',
         desc: 'This tool analyzes your input, such as error messages and code snippets, to identify and resolve bugs, providing detailed solutions and alternatives in a straightforward, user-friendly manner.',
         icon:'https://cdn-icons-png.flaticon.com/128/4426/4426267.png',
@@ -302,6 +317,7 @@ export default  [
         ]
     },
     {
+       
         name: 'Tagline Generator',
         desc: 'Struggling to find the perfect tagline for your brand? Let our AI tool assist you in creating a standout tagline.',
         icon:'https://cdn-icons-png.flaticon.com/128/2178/2178616.png',
@@ -326,6 +342,7 @@ export default  [
         ]
     },
     {
+        
         name: 'Product Description',
         desc: 'This is your AI-powered SEO expert, creating captivating and keyword-rich e-commerce product descriptions to boost your online sales.',
         icon:'https://cdn-icons-png.flaticon.com/128/679/679922.png',
