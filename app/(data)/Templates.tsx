@@ -3,11 +3,11 @@
 export default  [
     {
         name:'Blog Title',
-        desc:'An AI tool that generates blog titles based on your blog information.',
+        desc:'An AI tool that creates blog titles based on your blog information.',
         category:'Blog',
         icon:'https://cdn-icons-png.flaticon.com/128/4186/4186534.png',
         aiPrompt:'Give me 5 blog topic idea in bullet wise only based on give niche & outline and give me result in Rich text editor format',
-        slug:'generate-blog-title',
+        slug:'create-blog-title',
         form:[
             {
                 label:'Enter your blog niche',
@@ -185,12 +185,12 @@ export default  [
     },
     {
        
-        name: 'Instagram Post Generator',
+        name: 'Instagram Post Creator',
         desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
         icon: 'https://cdn-icons-png.flaticon.com/128/15713/15713420.png',
         category: 'blog',
        
-        slug: 'instagram-post-generator',
+        slug: 'instagram-post-creator',
         aiPrompt: 'Generate 3 Instagram post depends on a given keywords and give output in  in rich text editor format',
         form: [
             {
@@ -204,12 +204,12 @@ export default  [
     },
     {
         
-        name: 'Instagram Hash Tag Generator',
+        name: 'Instagram Hash Tag Creator',
         desc: 'An AI tool that serves as your personal blog post title writer, generating catchy and viral-worthy titles in your chosen language.',
         icon: 'https://cdn-icons-png.flaticon.com/128/7045/7045432.png',
         category: 'blog',
        
-        slug: 'instagram-hash-tag-generator',
+        slug: 'instagram-hash-tag-creator',
         aiPrompt: 'Generate 15 Instagram hash tag depends on a given keywords and give output in  in rich text editor format',
         form: [
             {
@@ -318,12 +318,12 @@ export default  [
     },
     {
        
-        name: 'Tagline Generator',
+        name: 'Tagline Creator',
         desc: 'Struggling to find the perfect tagline for your brand? Let our AI tool assist you in creating a standout tagline.',
         icon:'https://cdn-icons-png.flaticon.com/128/2178/2178616.png',
         category: 'Marketting',
        
-        slug: 'tagline-generator',
+        slug: 'tagline-creator',
         aiPrompt: 'Depends on user productName and outline generate catchy 5-10 tagline for the business product and give output  in rich text editor format ',
         form: [
             {

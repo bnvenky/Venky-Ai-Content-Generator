@@ -42,7 +42,7 @@ function SideNav() {
     return (
         <div className='h-screen relative p-5 shadow-sm border bg-white'>
         <div className='flex justify-center'>
-            <h1 className='text-gray-600 text-xl font-semibold'>Venky-Ai.CG</h1>
+            <h1 className='text-gray-600 text-xl font-semibold'>Venky-Ai.CC</h1>
         </div>
         <hr className='my-6 border' />
         <div className='mt-3'>

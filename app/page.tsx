@@ -8,7 +8,7 @@ export default function Home() {
    <div>
 <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white border-b border-gray-200 text-sm py-3 sm:py-0 dark:bg-neutral-800 dark:border-neutral-700">
   <nav className="relative max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
-    <h1 className='text-gray-600 text-xl font-semibold w-full'>Venky-Ai.CG</h1>
+    <h1 className='text-gray-600 text-xl font-semibold w-full'>Venky-Ai.CC</h1>
   
     <div id="navbar-collapse-with-animation" className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-end sm:ps-7">
@@ -25,10 +25,10 @@ export default function Home() {
 </header>
 <div className="relative overflow-hidden before:absolute before:top-0 before:start-1/2 before:bg-[url('https://preline.co/assets/svg/examples/polygon-bg-element.svg')] dark:before:bg-[url('https://preline.co/assets/svg/examples-dark/polygon-bg-element.svg')] before:bg-no-repeat before:bg-top before:bg-cover before:size-full before:-z-[1] before:transform before:-translate-x-1/2">
   <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-10">
-   <div className="mt-5 max-w-2xl text-center mx-auto ">
+   <div className="mt-5 w-full text-center mx-auto ">
       <h1 className="block font-bold text-gray-800  text-4xl md:text-5xl lg:text-6xl dark:text-neutral-200">
         Venky-AI
-        <span className="bg-clip-text bg-gradient-to-tl from-gray-400 to-gray-700 text-transparent"> Content Generator</span>
+        <span className="bg-clip-text bg-gradient-to-tl from-gray-400 to-gray-700 text-transparent"> Content Creator</span>
       </h1>
     </div>
    
