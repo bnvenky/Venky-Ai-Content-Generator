@@ -102,7 +102,7 @@ function billing() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
           </svg>
 
-          <span className="text-gray-700"> 1,00,000 Words/Month </span>
+          <span className="text-gray-700"> 10,000 Words/Month </span>
         </li>
 
         <li className="flex items-center gap-1">
@@ -188,7 +188,7 @@ function billing() {
             <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
           </svg>
 
-          <span className="text-gray-700"> 10,00,000 Words/Month  </span>
+          <span className="text-gray-700"> 1,00,000 Words/Month  </span>
         </li>
 
         <li className="flex items-center gap-1">

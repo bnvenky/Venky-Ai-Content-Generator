@@ -34,7 +34,7 @@ function CreateNewContent(props: PROPS) {
   const { updateCreditUsage, setUpdateCreditUsage } = useContext(UpdateCreditUsageContext);
 
   const GenerateAIContent = async (formData: any) => {
-    if (totalUsage >= 100000 && !userSubscription) {
+    if (totalUsage >= 10000 && !userSubscription) {
       alert('Please Upgrade');
       router.push('/dashboard/billing');
       return;

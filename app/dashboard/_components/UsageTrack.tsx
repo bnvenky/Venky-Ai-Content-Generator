@@ -17,7 +17,7 @@ import { UpdateCreditUsageContext } from '@/app/(context)/UpdateCreditUsageConte
     const {user}=useUser();
     const {totalUsage,setTotalUsage}=useContext(TotalUsageContext)
     const {userSubscription,setUserSubscription}=useContext(UserSubscriptionContext);
-    const [maxWords,setMaxWords]=useState(100000)
+    const [maxWords,setMaxWords]=useState(10000)
     const {updateCreditUsage,setUpdateCreditUsage}=useContext(UpdateCreditUsageContext);
     useEffect(()=>{
         user&&GetData();
@@ -43,7 +43,7 @@ import { UpdateCreditUsageContext } from '@/app/(context)/UpdateCreditUsageConte
         if(result.length>0)
             {
                 setUserSubscription(true);
-                setMaxWords(10000000);
+                setMaxWords(100000);
             }
     }
 
